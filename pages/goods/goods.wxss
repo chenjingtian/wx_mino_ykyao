@@ -1,0 +1,67 @@
+@import "../tpl/common_header-tpl/comment-tpl.wxss";
+@import "../tpl/goodsItem/goodsItem.wxss";
+
+.slide-image{
+  width:100%;
+  height:290rpx;
+}
+.index-nav{
+    margin-top:20rpx;
+    display: flex;
+    font-size:25rpx;
+    flex-wrap: wrap;
+  }
+.index-nav .item{
+  width:20%;
+  margin-bottom:16rpx;
+  text-align: center
+}
+.index-nav image{
+  width:97rpx;
+  height:97rpx;
+}
+
+
+/*活动*/
+.goods-list{
+  padding:3%;
+  display: flex;
+  justify-content:space-around;
+  background: #efeeef;
+}
+.goods-list .module{
+  width:47%;
+  height:170rpx;
+  margin-bottom:20rpx;
+}
+
+.goods-list image{
+  width:100%;
+  height:100%;
+}
+
+
+.guess-like .title{
+  color:#3e3a3b;
+  text-align:center;
+  align-items: center;
+}
+
+.guess-like .like_icon{
+  vertical-align: middle;
+  width:40rpx;
+  height:40rpx;
+}
+
+.guess-like .text{
+  vertical-align: middle;
+}
+
+
+.like-pro-list{
+  display: flex;
+  font-size:30rpx;
+  flex-wrap: wrap;
+  border-top: 1px solid #ddd;
+}
+

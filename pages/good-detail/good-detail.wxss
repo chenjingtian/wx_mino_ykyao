@@ -1,0 +1,9 @@
+@import "../tpl/price-tpl/price-tpl.wxss";
+@import "../tpl/dot-tpl/dot-tpl.wxss";
+@import "../tpl/user-info-tpl/user-info-tpl.wxss";
+@import "../tpl/description-tpl/description-tpl.wxss";
+@import "../tpl/contact-tpl/contact-tpl.wxss";
+@import "../tpl/operate-tpl/operate-tpl.wxss";
+@import "../tpl/comment-tpl/comment-tpl.wxss";
+@import "../tpl/modal-tpl/modal-tpl.wxss";
+

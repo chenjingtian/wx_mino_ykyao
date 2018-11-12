@@ -1,0 +1,9 @@
+
+<template name="common_header-tpl">
+  <view class="index-header">
+      <image class="app-logo" src="http://www.ykyao.com/wap/theme/xth1/images/logo.png" alt=""/>
+      <view class="search-medicine">
+        <input class="form-control" placeholder="请输入商品名称、品牌" type="search"/>
+      </view>
+  </view>
+</template>

@@ -1,0 +1,21 @@
+/* pages/tpl/goodsItem/goodsItem.wxss */
+.goods_item{
+  width:50%;
+  padding:10rpx 34rpx;
+  box-sizing: border-box;
+ 
+}
+.img_src{
+ width:100%;
+  height:350rpx;
+}
+.pro_name{
+  width:100%;
+  min-height:105rpx;
+  line-height: 35rpx;
+  vertical-align: top
+}
+   
+.pro-price{height:80rpx;line-height: 80rpx;display: flex;justify-content: space-between}
+.now-price{color:#eb000d;font-weight:bold;}
+.old-price{text-decoration: line-through;color:#868686;}

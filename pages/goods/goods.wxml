@@ -1,0 +1,42 @@
+<import src="../tpl/common_header-tpl/comment-tpl.wxml"/>
+<import src="../tpl/goodsItem/goodsItem.wxml"/>
+
+<template is="common_header-tpl"></template>
+<swiper autoplay="true" indicator-dots="true" interval="5000" duration="200" indicator-color="#666" indicator-active-color="#397af4" circular="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <navigator url="{{item.link}}">
+        <image src="{{item.img_url}}" class="slide-image"/>
+      </navigator>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="index-nav">
+  <navigator class="item" wx:for="{{navItems}}">
+      <image src="{{item.img_url}}"></image>
+      <view class="text">
+        <text>{{item.text}}</text>
+      </view>
+  </navigator>
+</view>
+<view class="goods-list module-box1">
+  <navigator class="module">
+    <image src="/imgs/goods/activity1.jpg"></image>
+  </navigator>
+  <navigator class="module">
+    <image src="/imgs/goods/activity1.jpg"></image>
+  </navigator>
+</view>
+
+<view class="guess-like">
+  <view class="title">
+    <image class="like_icon" src="/imgs/goods/like.jpg"></image>
+    <text class="text">猜您喜欢</text>
+  </view>
+  
+    <view class="like-pro-list">
+        <template is="goodsItem" wx:for="{{goodsList}}" wx:key="{{item.product_mainID}}" data="{{item}}">
+        </template>
+    </view>
+</view>
+

@@ -1,0 +1,33 @@
+
+.index-header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  height:95rpx;
+  padding:12rpx 10rpx 15rpx 10rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.app-logo{
+  width:136rpx;
+  height:65rpx;
+}
+
+.search-medicine{
+  width:575rpx;
+  height:50rpx;
+  line-height:50rpx;
+  margin-left:10rpx;
+  margin-top:10px;
+}
+.form-control{
+  height:100%;
+  border: 1rpx solid #E6E7E9;
+  border-radius: 10rpx;
+  padding-left:60rpx;
+  background: #E6E7E9 url(http://www.ykyao.com/wap/theme/xth1/images/search_logo.png) 10rpx center no-repeat;
+  background-size:30rpx 30rpx;
+  font-size: 28rpx;
+}
+

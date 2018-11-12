@@ -1,0 +1,60 @@
+{
+  "pages": [
+    "pages/goods/goods",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/add-good/add-good",
+    "pages/test/test",
+    "pages/form/form",
+    "pages/good-detail/good-detail",
+    "pages/person-info/person-info",
+    "pages/contact-us/contact-us",
+    "pages/tpl/goodsItem/goodsItem"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ykyao",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/goods/goods",
+        "text": "首页",
+        "iconPath": "imgs/toolbar/index.png",
+        "selectedIconPath": "imgs/toolbar/index.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "找药",
+        "iconPath": "imgs/toolbar/icon2.png",
+        "selectedIconPath": "imgs/toolbar/icon2.png"
+      },
+      {
+        "pagePath": "pages/add-good/add-good",
+        "text": "咨询",
+        "iconPath": "imgs/toolbar/my.png",
+        "selectedIconPath": "imgs/toolbar/myblue@selected.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "购物车",
+        "iconPath": "imgs/toolbar/icon3.png",
+        "selectedIconPath": "imgs/toolbar/icon3.png"
+      },
+      {
+        "pagePath": "pages/form/form",
+        "text": "我",
+        "iconPath": "imgs/toolbar/icon4.png",
+        "selectedIconPath": "imgs/toolbar/icon4.png"
+      }
+    ],
+    "backgroundColor": "#fff",
+    "selectedColor": "#397af4",
+    "color": "#3e3a39",
+    "borderStyle": "black",
+    "position": "bottom"
+  }
+}

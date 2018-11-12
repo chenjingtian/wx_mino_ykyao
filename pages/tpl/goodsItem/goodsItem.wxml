@@ -1,0 +1,22 @@
+<!--pages/tpl/goodsItem/goodsItem.wxml-->
+<template name="goodsItem">  
+    <view class="goods_item">
+        <navigator style="width:100%;overflow:hidden">
+          <block>
+            <image class="img_src" src="{{item.goodsMainPic}}"></image>
+            <block>
+              <view class="pro_name">
+                {{item.goodsName}}
+              </view>
+              
+            </block>
+          </block>
+        </navigator>
+        <block>
+          <view class="pro-price">
+            <text class="now-price">¥{{item.salePrice}}</text>
+            <text class="old-price">¥{{item.marketPrice}}</text>
+          </view>
+        </block>
+    </view>
+</template> 
